@@ -25,15 +25,15 @@
                 </a>
                 <ul class="header__nav--left">
                     <li><a href="/" class="active">Home</a></li>
-                    <li><a href="/about">About</a></li>
-                    <li><a href="/features">Features</a></li>
+                    <li><a href="/#about">About</a></li>
+                    <li><a href="#/features">Features</a></li>
                 </ul>
                 <div class="header__nav--right">
                     <ul>
-                        <li><a href="/screenshot">Screenshot</a></li>
+                        <li><a href="/#screenshot">Screenshot</a></li>
                         <li><a href="/blog">Blog</a></li>
                     </ul>
-                    <a href="/download" class="header__btn">Download</a>
+                    <a href="/#download" class="header__btn">Download</a>
                 </div>
             </nav>
         </div>
@@ -48,15 +48,15 @@
                 <a href="/" class="header__logo">
                     <img src="<?php echo THEME_DIR_URL . '/images/logo.png'; ?>" alt="Logo">
                 </a>
-                <a href="/download" class="header__btn">Download</a>
+                <a href="/#download" class="header__btn">Download</a>
             </div>
         </div>
         <nav class="header__mob-menu header--mobile">
             <ul>
                 <li><a href="/" class="active">Home</a></li>
-                <li><a href="/about">About</a></li>
-                <li><a href="/features">Features</a></li>
-                <li><a href="/screenshot">Screenshot</a></li>
+                <li><a href="/#about">About</a></li>
+                <li><a href="/#features">Features</a></li>
+                <li><a href="/#screenshot">Screenshot</a></li>
                 <li><a href="/blog">Blog</a></li>
             </ul>
         </nav>

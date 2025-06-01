@@ -117,18 +117,6 @@
           color: $royal-blue;
           text-decoration: underline;
         }
-
-        //&.header__btn {
-        //  padding: 10px 16px;
-        //  margin-left: 20px;
-        //  color: $white;
-        //  background-color: $royal-blue;
-        //  border-radius: 6px;
-        //  transition: background-color .25s ease-in-out;
-        //  &:hover {
-        //    background-color: $black;
-        //  }
-        //}
       }
     }
   }
@@ -150,6 +138,7 @@
     transition: background-color .25s ease-in-out;
     @media (min-width: 768px) {
       margin-left: 20px;
+      font-size: 20px;
     }
 
     &:hover {

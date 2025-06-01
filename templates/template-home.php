@@ -6,6 +6,7 @@ get_header();
 ?>
 <main>
     <?php get_template_part('parts/sections/section', 'hero'); ?>
+    <?php get_template_part('parts/sections/section', 'about'); ?>
     <?php get_template_part('parts/sections/section', 'contacts'); ?>
 </main>
 <?php
