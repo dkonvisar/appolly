@@ -1,0 +1,66 @@
+@use '../variables' as *;
+
+.hero {
+  padding-top: 220px;
+  padding-bottom: 80px;
+  min-height: 100vh;
+  background: 50% / cover url("../images/hero-bg-2.png") no-repeat;
+
+  &__inner {
+    display: flex;
+    align-items: center;
+    gap: 0 16px;
+  }
+
+  &__left {
+    display: flex;
+    flex: 0 0 60%;
+  }
+
+  &__right {
+    display: flex;
+    flex: 0 0 40%;
+  }
+
+  &__box {
+    position: relative;
+    padding: 40px 30px;
+    max-width: 570px;
+    background-color: $white;
+    z-index: 1;
+
+    h1 {
+      margin: 0 0 18px;
+      color: $royal-blue;
+    }
+
+    h3 {
+      margin: 50px 0 16px;
+      color: $black;
+    }
+  }
+
+  &__box-wrapper {
+    position: relative;
+  }
+
+  &__box-border {
+    position: absolute;
+    top: 50%;
+    left: 52px;
+    transform: translate(0, -50%);
+    display: block;
+    width: 100%;
+    height: calc(100% + 104px);
+    border: 18px solid #7572FF;
+    z-index: 0;
+  }
+  &__download-links {
+    display: flex;
+    align-items: center;
+    gap: 0 14px;
+    img {
+      max-height: 150px;
+    }
+  }
+}
