@@ -1,23 +1,37 @@
 @use '../variables' as *;
 
 .footer {
-  //position: relative;
-  padding-top: 240px;
+  padding-top: 200px;
   color: $white;
   background-color: $black;
+  @media (min-width: 768px) {
+    padding-top: 240px;
+  }
 
 
 
   &__content {
     display: flex;
-    gap: 0 60px;
+    flex-direction: column;
+    @media (min-width: 768px) {
+      flex-direction: row;
+      gap: 0 24px;
+    }
+    @media (min-width: 1440px) {
+      gap: 0 60px;
+    }
   }
 
   &__column {
-    flex: 0 0 33.3%;
+    margin: 30px 0;
+    @media (min-width: 768px) {
+      flex: 0 0 33.3%;
+    }
 
     &:first-child {
-      flex: 0 0 340px;
+      @media (min-width: 1440px) {
+        flex: 0 0 340px;
+      }
     }
 
     &:nth-child(2) {
@@ -26,6 +40,9 @@
 
     h3 {
       margin-top: 0;
+      @media (max-width: 767px) {
+        font-size: 25px;
+      }
     }
 
     p {
@@ -47,6 +64,12 @@
     display: flex;
     align-items: center;
     gap: 0 32px;
+    @media (min-width: 768px) {
+      gap: 0 18px;
+    }
+    @media (min-width: 1440px) {
+      gap: 0 32px;
+    }
 
     a {
       display: flex;
@@ -54,6 +77,12 @@
       color: $white;
       border-right: 1px solid $white;
       transition: color .25s ease-in-out;
+      @media (min-width: 768px) {
+        padding-right: 18px;
+      }
+      @media (min-width: 1440px) {
+        padding-right: 32px;
+      }
 
       &:last-child {
         border-right: none;
@@ -109,6 +138,7 @@
     p {
       display: flex;
       justify-content: center;
+      margin: 24px 0 16px;
     }
   }
 }
