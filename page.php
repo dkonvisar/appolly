@@ -1,6 +1,6 @@
 <?php
 /**
- * Index
+ * Page
  */
 get_header();
 ?>
