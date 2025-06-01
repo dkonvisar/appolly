@@ -1,0 +1,20 @@
+{
+  "name": "appolly",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "theme-start": "wp-scripts start assets/src/index.js --output-path=build/theme",
+    "theme-build": "wp-scripts build assets/src/index.js --output-path=build/theme",
+    "sync": "browser-sync start --proxy \"appolly.local\" --reload-delay 200 --files=[\"**/*.css\", \"wp-content/themes/**/*.php\"]",
+    "dev": "concurrently \"npm run theme-start\" \"npm run sync\"",
+    "prod": "concurrently \"npm run theme-build\""
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@wordpress/scripts": "^30.17.0",
+    "browser-sync": "^3.0.4",
+    "concurrently": "^9.1.2"
+  }
+}

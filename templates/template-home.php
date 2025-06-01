@@ -1,0 +1,12 @@
+<?php
+/**
+ * Template Name: Homepage
+ */
+get_header();
+?>
+<main>
+    <?php get_template_part('parts/sections/section', 'hero'); ?>
+    <?php get_template_part('parts/sections/section', 'contacts'); ?>
+</main>
+<?php
+get_footer();

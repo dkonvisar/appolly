@@ -1,0 +1,19 @@
+@use 'variables' as *;
+
+body {
+  font: 400 16px / 1.5 $font-main;
+  color: $color-text-main;
+}
+
+h3 {
+  font-size: 25px;
+  font-weight: 600;
+  text-transform: uppercase;
+  @media (min-width: 768px) {
+    font-size: 20px;
+  }
+  @media (min-width: 1440px) {
+    font-size: 25px;
+
+  }
+}

@@ -1,0 +1,153 @@
+@use '../variables' as *;
+
+.footer {
+  //position: relative;
+  padding-top: 240px;
+  color: $white;
+  background-color: $black;
+
+
+
+  &__content {
+    display: flex;
+    gap: 0 60px;
+  }
+
+  &__column {
+    flex: 0 0 33.3%;
+
+    &:first-child {
+      flex: 0 0 340px;
+    }
+
+    &:nth-child(2) {
+      flex: 1 0 auto;
+    }
+
+    h3 {
+      margin-top: 0;
+    }
+
+    p {
+      margin-bottom: 32px;
+    }
+  }
+
+  &__logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 40px;
+    background-color: $white;
+    border-radius: 6px;
+  }
+
+  &__socials {
+    display: flex;
+    align-items: center;
+    gap: 0 32px;
+
+    a {
+      display: flex;
+      padding-right: 32px;
+      color: $white;
+      border-right: 1px solid $white;
+      transition: color .25s ease-in-out;
+
+      &:last-child {
+        border-right: none;
+      }
+
+      &:hover {
+        color: $royal-blue;
+      }
+    }
+
+    svg {
+      width: 20px;
+      height: 20px;
+    }
+  }
+
+  &__nav {
+    ul {
+      display: flex;
+      flex-direction: column;
+      gap: 12px 0;
+      padding: 0;
+      list-style: none;
+
+      a {
+        color: $white;
+        text-decoration: none;
+        transition: color .25s ease-in-out;
+
+        &:hover {
+          color: $royal-blue;
+        }
+      }
+    }
+  }
+
+  &__newsletter {
+    p {
+      max-width: 300px;
+    }
+  }
+
+  &__copyright {
+    margin-top: 40px;
+    border-top: 1px solid $white;
+
+    svg {
+      margin-right: 20px;
+      width: 20px;
+      height: 20px;
+    }
+
+    p {
+      display: flex;
+      justify-content: center;
+    }
+  }
+}
+
+#footer-subscribe {
+  position: relative;
+}
+
+#footer-email {
+  padding: 12px 18px;
+  height: 50px;
+  width: 100%;
+  font: 400 16px / 1.5 $font-main;
+  border-radius: 4px;
+
+  &::placeholder {
+    color: $gray;
+  }
+}
+
+#footer-submit {
+  position: absolute;
+  top: 2px;
+  right: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 52px;
+  height: 46px;
+  background-color: $royal-blue;
+  border-radius: 4px;
+  transition: background-color .25s ease-in-out;
+
+  &:hover {
+    background-color: $black;
+  }
+
+  svg {
+    width: 20px;
+    height: 20px;
+  }
+}

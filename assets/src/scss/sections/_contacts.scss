@@ -1,0 +1,51 @@
+@use '../variables' as *;
+
+.contacts {
+  &__content {
+    position: relative;
+    top: 100px;
+    display: flex;
+    padding: 65px 50px;
+    background-color: $white;
+    border-radius: 30px;
+    box-shadow: 0 10px 100px 0 rgba($black, 0.24);
+
+    a {
+      flex: 0 0 50%;
+      display: flex;
+      align-items: center;
+      text-decoration: none;
+
+      &:hover {
+        span {
+          color: $royal-blue;
+        }
+      }
+
+      &:first-child {
+        border-right: 4px solid $gray;
+      }
+
+      &:last-child {
+        padding-left: 50px;
+      }
+    }
+
+    svg {
+      padding: 34px;
+      width: 100px;
+      height: 100px;
+      color: $white;
+      background-color: $royal-blue;
+      border-radius: 50%;
+    }
+
+    span {
+      margin-left: 18px;
+      color: $black;
+      font-size: 25px;
+      font-weight: 600;
+      transition: color .25s ease-in-out;
+    }
+  }
+}
