@@ -1,0 +1,65 @@
+@use '../variables' as *;
+
+.checkout {
+  padding: 60px 0 0;
+  @media (min-width: 768px) {
+    padding: 120px 0 0;
+  }
+
+  &__heading {
+    margin-bottom: 40px;
+    text-align: center;
+    @media (min-width: 768px) {
+      margin: 0 auto 60px;
+      max-width: 450px;
+    }
+
+    @media (min-width: 1440px) {
+      max-width: 600px;
+    }
+
+    h2 {
+      margin-top: 0;
+      color: $black;
+      text-transform: uppercase;
+    }
+  }
+
+  .swiper {
+    overflow: hidden;
+    @media (max-width: 767px) {
+      margin: 0 -20px;
+    }
+  }
+
+  .swiper-slide {
+    transform: scale(.8) !important;
+    opacity: 0.6;
+    transition: transform .3s, opacity .3s;
+    max-width: 320px;
+    @media (min-width: 768px) {
+      max-width: 100%;
+    }
+  }
+
+  .swiper-pagination-custom {
+    display: flex;
+    justify-content: center;
+    gap: 0 16px;
+    margin-top: 50px;
+  }
+
+  .swiper-slide-active {
+    transform: scale(1) !important;
+    opacity: 1;
+  }
+
+  .swiper-pagination-bullet {
+    width: 16px;
+    height: 16px;
+  }
+
+  .swiper-pagination-bullet {
+    background-color: $royal-blue;
+  }
+}

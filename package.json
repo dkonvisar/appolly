@@ -16,5 +16,8 @@
     "@wordpress/scripts": "^30.17.0",
     "browser-sync": "^3.0.4",
     "concurrently": "^9.1.2"
+  },
+  "dependencies": {
+    "swiper": "^11.2.8"
   }
 }
