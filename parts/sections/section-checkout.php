@@ -7,19 +7,19 @@
         <div class="checkout__slider swiper">
             <div class="swiper-wrapper">
                 <div class="checkout__slide swiper-slide">
-                    <img src="<?php echo THEME_DIR_URL . '/images/checkout-3.png' ?>" alt="Mobile">
+                    <img src="<?php echo THEME_DIR_URL . '/media/checkout-3.png' ?>" alt="Mobile">
                 </div>
                 <div class="checkout__slide swiper-slide">
-                    <img src="<?php echo THEME_DIR_URL . '/images/checkout-3.png' ?>" alt="Mobile">
+                    <img src="<?php echo THEME_DIR_URL . '/media/checkout-3.png' ?>" alt="Mobile">
                 </div>
                 <div class="checkout__slide swiper-slide">
-                    <img src="<?php echo THEME_DIR_URL . '/images/checkout-3.png' ?>" alt="Mobile">
+                    <img src="<?php echo THEME_DIR_URL . '/media/checkout-3.png' ?>" alt="Mobile">
                 </div>
                 <div class="checkout__slide swiper-slide">
-                    <img src="<?php echo THEME_DIR_URL . '/images/checkout-3.png' ?>" alt="Mobile">
+                    <img src="<?php echo THEME_DIR_URL . '/media/checkout-3.png' ?>" alt="Mobile">
                 </div>
                 <div class="checkout__slide swiper-slide">
-                    <img src="<?php echo THEME_DIR_URL . '/images/checkout-3.png' ?>" alt="Mobile">
+                    <img src="<?php echo THEME_DIR_URL . '/media/checkout-3.png' ?>" alt="Mobile">
                 </div>
             </div>
             <div class="swiper-pagination-custom"></div>

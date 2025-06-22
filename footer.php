@@ -3,7 +3,7 @@
         <div class="footer__content">
             <div class="footer__column">
                 <a href="/" class="footer__logo">
-                    <img src="<?php echo THEME_DIR_URL . '/images/logo.png'; ?>" alt="Logo">
+                    <img src="<?php echo THEME_DIR_URL . '/media/logo.png'; ?>" alt="Logo">
                 </a>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus vitae, nullam lobortis enim.</p>
                 <div class="footer__socials">
@@ -29,14 +29,14 @@
                         <input id="footer-email" type="email" placeholder="Your email address" required>
                     </label>
                     <button id="footer-submit" type="submit">
-                        <svg><use xlink:href="<?php echo THEME_DIR_URL . '/images/sprite.svg#icon-send'; ?>"></use></svg>
+                        <svg><use xlink:href="<?php echo THEME_DIR_URL . '/media/sprite.svg#icon-send'; ?>"></use></svg>
                     </button>
                 </form>
             </div>
         </div>
         <div class="footer__copyright">
             <p>
-                <svg><use xlink:href="<?php echo THEME_DIR_URL . '/images/sprite.svg#icon-ad'; ?>"></use></svg>
+                <svg><use xlink:href="<?php echo THEME_DIR_URL . '/media/sprite.svg#icon-ad'; ?>"></use></svg>
                 Copyright 2025 .Ojjomedia. All Right Reserved.
             </p>
         </div>

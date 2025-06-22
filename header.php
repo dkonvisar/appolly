@@ -21,7 +21,7 @@
         <div class="header__main header--desktop">
             <nav class="header__nav">
                 <a href="/" class="header__logo">
-                    <img src="<?php echo THEME_DIR_URL . '/images/logo.png'; ?>" alt="Logo">
+                    <img src="<?php echo THEME_DIR_URL . '/media/logo.png'; ?>" alt="Logo">
                 </a>
                 <ul class="header__nav--left">
                     <li><a href="/" class="active">Home</a></li>
@@ -46,7 +46,7 @@
                     <span class="bar-3"></span>
                 </button>
                 <a href="/" class="header__logo">
-                    <img src="<?php echo THEME_DIR_URL . '/images/logo.png'; ?>" alt="Logo">
+                    <img src="<?php echo THEME_DIR_URL . '/media/logo.png'; ?>" alt="Logo">
                 </a>
                 <a href="/#download" class="header__btn">Download</a>
             </div>
