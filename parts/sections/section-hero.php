@@ -9,12 +9,7 @@
                         <div class="hero__download">
                             <h3>Download App Now</h3>
                             <div class="hero__download-links">
-                                <a href="#" target="_blank">
-                                    <img src="<?php echo THEME_DIR_URL . '/media/google-play.png' ?>" alt="Google play">
-                                </a>
-                                <a href="#" target="_blank">
-                                    <img src="<?php echo THEME_DIR_URL . '/media/app-store.png' ?>" alt="App store">
-                                </a>
+                                <?php get_template_part('parts/downloads'); ?>
                             </div>
                         </div>
                     </div>
