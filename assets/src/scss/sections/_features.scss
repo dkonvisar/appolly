@@ -1,0 +1,79 @@
+@use '../variables' as *;
+
+.features {
+  color: $white;
+  background: $royal-blue 50% / cover url("../images/hero-bg-2.png") no-repeat;
+
+  .container {
+    padding-left: 36px;
+    padding-right: 36px;
+  }
+
+  &__items {
+    text-align: center;
+  }
+
+  &__items-center {
+    @media (min-width: 768px) {
+      display: flex;
+      justify-content: space-between;
+      gap: 0 18px;
+      margin: 60px 0;
+    }
+  }
+
+  &__items-left {
+    @media (min-width: 768px) {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      text-align: right;
+    }
+  }
+
+  &__items-right {
+    @media (min-width: 768px) {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      text-align: left;
+    }
+  }
+
+  &__image {
+    margin: 60px 0 120px;
+    @media (min-width: 768px) {
+      margin: 0;
+    }
+
+    img {
+      margin: 0 auto;
+      max-width: 210px;
+      border-radius: 40px;
+      overflow: hidden;
+      box-shadow: 40px 40px 100px 0 rgba(24, 48, 63, 0.5);
+
+      @media (min-width: 768px) {
+        //max-width: 375px;
+        box-shadow: 10px 10px 100px 0 rgba(24, 48, 63, 0.3);
+      }
+      @media (min-width: 1200px) {
+        max-width: 375px;
+        box-shadow: 40px 40px 100px 0 rgba(24, 48, 63, 0.5);
+      }
+    }
+  }
+
+  &__item {
+    margin: 40px auto;
+    max-width: 340px;
+    @media (min-width: 768px) {
+      margin: 0 auto;
+    }
+
+    svg {
+      width: 50px;
+      height: 50px;
+    }
+  }
+}
