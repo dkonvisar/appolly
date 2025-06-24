@@ -3,7 +3,6 @@
 .using {
   position: relative;
   padding-bottom: 100px;
-  //padding-bottom: 28%;
   background: $royal-blue 50% / cover url("../images/hero-bg-2.png") no-repeat;
   @media (min-width: 768px) {
     padding-bottom: 150px;
@@ -41,7 +40,6 @@
       position: relative;
       display: block;
       height: 150px;
-      //padding-bottom: 42%;
       border-radius: 10px;
       overflow: hidden;
       @media (min-width: 768px) {
@@ -81,6 +79,10 @@
         }
       }
     }
+  }
+
+  &__lightbox {
+    box-shadow: 0 10px 100px 0 rgba(0, 0, 0, 0.24);
   }
 
   .circle-1 {

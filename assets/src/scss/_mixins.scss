@@ -1,0 +1,41 @@
+@use 'variables' as *;
+
+@mixin socials {
+  display: flex;
+  align-items: center;
+  gap: 0 32px;
+  @media (min-width: 768px) {
+    gap: 0 18px;
+  }
+  @media (min-width: 1440px) {
+    gap: 0 32px;
+  }
+
+  a {
+    display: flex;
+    padding-right: 32px;
+    color: $white;
+    border-right: 1px solid $white;
+    transition: color .25s ease-in-out;
+    @media (min-width: 768px) {
+      padding-right: 18px;
+    }
+    @media (min-width: 1440px) {
+      padding-right: 32px;
+    }
+
+    &:last-child {
+      border-right: none;
+      padding-right: 0;
+    }
+
+    &:hover {
+      color: $royal-blue;
+    }
+  }
+
+  svg {
+    width: 20px;
+    height: 20px;
+  }
+}
