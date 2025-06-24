@@ -1,0 +1,129 @@
+@use '../variables' as *;
+
+.using {
+  position: relative;
+  padding-bottom: 100px;
+  //padding-bottom: 28%;
+  background: $royal-blue 50% / cover url("../images/hero-bg-2.png") no-repeat;
+  @media (min-width: 768px) {
+    padding-bottom: 150px;
+  }
+  @media (min-width: 1200px) {
+    padding-bottom: 200px;
+  }
+
+  .section-heading {
+    color: $white;
+    margin-bottom: 0;
+  }
+
+  h2 {
+    margin-bottom: 40px;
+  }
+
+  &__bottom {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transform: translateY(50%);
+  }
+
+  &__bottom-inner {
+    @media (min-width: 768px) {
+      padding: 0 60px;
+    }
+    @media (min-width: 1200px) {
+      padding: 0 200px;
+    }
+
+    a {
+      position: relative;
+      display: block;
+      height: 150px;
+      //padding-bottom: 42%;
+      border-radius: 10px;
+      overflow: hidden;
+      @media (min-width: 768px) {
+        height: 230px;
+      }
+
+      @media (min-width: 1200px) {
+        height: 320px;
+      }
+
+      img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+        @media (min-width: 768px) {
+        }
+      }
+
+      &:after {
+        content: '';
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background-color: rgba(88, 81, 234, 0.4);
+      }
+
+      &:hover {
+        .circle-1 {
+          background-color: rgba($royal-blue, 0.6);
+        }
+      }
+    }
+  }
+
+  .circle-1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70px;
+    height: 70px;
+    background-color: rgba($white, 0.6);
+    border-radius: 50%;
+    z-index: 1;
+    transition: background-color .25s ease-in-out;
+  }
+
+  .circle-2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba($white, 0.7);
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    z-index: 1;
+  }
+
+  .circle-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background-color: $white;
+    border-radius: 50%;
+
+    svg {
+      width: 20px;
+      height: 20px;
+      color: $royal-blue;
+    }
+  }
+}
