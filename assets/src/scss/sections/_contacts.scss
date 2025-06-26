@@ -1,22 +1,27 @@
 @use '../variables' as *;
 
 .contacts {
+  padding: 0;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  transform: translateY(50%);
+
   &__content {
-    position: relative;
-    top: 150px;
     display: flex;
     flex-direction: column;
     padding: 30px;
     background-color: $white;
-    border-radius: 30px;
+    border-radius: 10px;
     box-shadow: 0 10px 100px 0 rgba($black, 0.24);
     @media (min-width: 768px) {
       flex-direction: row;
       padding: 65px 50px;
+      border-radius: 15px;
     }
-
-    @media (min-width: 1440px) {
-      top: 100px;
+    @media (min-width: 1200px) {
+      border-radius: 30px;
     }
 
     a {
@@ -80,9 +85,6 @@
         width: 100px;
         height: 100px;
       }
-      @media (min-width: 1440px) {
-
-      }
     }
 
     span {
@@ -98,7 +100,7 @@
         margin-top: 0;
         margin-left: 18px;
       }
-      @media (min-width: 1440px) {
+      @media (min-width: 1200px) {
         font-size: 25px;
       }
     }

@@ -94,3 +94,13 @@
     }
   }
 }
+
+.recent:has(+ .contacts) {
+  padding-bottom: 210px;
+  @media (min-width: 768px) {
+    padding-bottom: 195px;
+  }
+  @media (min-width: 1200px) {
+    padding-bottom: 250px;
+  }
+}

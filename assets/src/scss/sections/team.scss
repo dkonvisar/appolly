@@ -128,7 +128,9 @@
 
   &__socials {
     @include socials;
-    margin-top: 14px;
+    & {
+      margin-top: 14px;
+    }
 
     a {
       color: $black;
