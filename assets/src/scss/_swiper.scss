@@ -1,0 +1,50 @@
+@use 'variables' as *;
+
+// Basic Swiper styles
+.swiper-pagination-custom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0 8px;
+  height: 22px;
+  margin-top: 40px;
+  @media (min-width: 768px) {
+    margin-top: 60px;
+  }
+
+  .swiper-pagination-bullet {
+    position: relative;
+    width: 16px;
+    height: 16px;
+    background-color: $white;
+    opacity: 1;
+
+    &:before {
+      content: '';
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      display: block;
+      width: 21px;
+      height: 21px;
+      background: transparent;
+      border: 1px solid $white;
+      border-radius: 50%;
+      opacity: 0;
+      transition: opacity .25s ease-in-out;
+    }
+
+    &:hover {
+      &:before {
+        opacity: 1;
+      }
+    }
+  }
+
+  .swiper-pagination-bullet-active {
+    &:before {
+      opacity: 1;
+    }
+  }
+}

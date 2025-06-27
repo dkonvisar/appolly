@@ -1,0 +1,85 @@
+@use '../variables' as *;
+
+.customers {
+  background: $royal-blue 50% / cover url("../images/hero-bg-2.png") no-repeat;
+
+  .section-heading {
+    color: $white;
+  }
+
+  .swiper-wrapper {
+    align-items: center;
+  }
+
+  .swiper-slide {
+    @media (min-width: 375px) {
+      width: 340px;
+    }
+    @media (min-width: 768px) {
+      width: 450px;
+    }
+    @media (min-width: 1200px) {
+      width: 770px;
+    }
+  }
+
+  .swiper-slide-active {
+    box-shadow: 0 10px 100px 0 rgba(0, 0, 0, 0.24);
+  }
+
+  &__slider-container {
+    @media (max-width: 767px) {
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+
+  &__card {
+    padding: 20px 10px;
+    text-align: center;
+    background-color: $white;
+    border-radius: 10px;
+    overflow: hidden;
+    @media (min-width: 768px) {
+      padding: 20px 38px;
+    }
+    @media (min-width: 1200px) {
+      padding: 40px 60px;
+    }
+
+    img {
+      margin: 0 auto;
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      @media (min-width: 1200px) {
+        width: 96px;
+        height: 96px;
+      }
+    }
+
+    h3, h4 {
+      color: $black;
+    }
+
+    h3 {
+      margin: 20px 0 0;
+      font-size: 25px;
+      font-weight: 600;
+      @media (min-width: 1200px) {
+        font-size: 32px;
+      }
+    }
+
+    h4 {
+      margin: 0 0 8px;
+      font-size: 16px;
+      font-weight: 400;
+      text-transform: uppercase;
+      @media (min-width: 1200px) {
+        font-size: 20px;
+        font-weight: 600;
+      }
+    }
+  }
+}
