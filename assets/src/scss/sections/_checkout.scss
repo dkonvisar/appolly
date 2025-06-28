@@ -49,14 +49,14 @@
 
   .swiper-slide {
     width: 220px;
+    transform: scale(.77) !important;
+    transition: transform .3s ease-in-out;
     @media (min-width: 768px) {
       width: 228px;
     }
     @media (min-width: 1200px) {
       width: 320px;
     }
-    transform: scale(.77) !important;
-    transition: transform .3s ease-in-out;
   }
 
   .swiper-slide-active {

@@ -1,6 +1,8 @@
 @use '../variables' as *;
 
 .hero {
+  display: flex;
+  align-items: center;
   padding-top: 220px;
   padding-bottom: 80px;
   min-height: 100vh;
@@ -18,7 +20,7 @@
     display: flex;
     justify-content: center;
     @media (min-width: 768px) {
-      flex: 0 0 60%;
+      flex: 0 0 55%;
       justify-content: flex-start;
     }
   }
@@ -29,18 +31,43 @@
     margin-top: 60px;
     @media (min-width: 768px) {
       flex: 0 0 40%;
-      justify-content: flex-start;
+      justify-content: flex-end;
       margin-top: 0;
+    }
+    @media (min-width: 1200px) {
+      justify-content: center;
+    }
+
+    img {
+      max-width: 280px;
+      @media (min-width: 768px) {
+        max-width: 240px;
+      }
+      @media (min-width: 1024px) {
+        max-width: 300px;
+      }
+      @media (min-width: 1200px) {
+        max-width: 360px;
+      }
     }
   }
 
   &__box {
     position: relative;
-    padding: 40px 30px;
-    max-width: 570px;
+    padding: 30px 18px;
+    max-width: 590px;
     width: calc(100% - 20px);
     background-color: $white;
     z-index: 1;
+    @media (min-width: 768px) {
+      padding: 14px 8px 14px 12px;
+    }
+    @media (min-width: 1024px) {
+      padding: 18px;
+    }
+    @media (min-width: 1200px) {
+      padding: 40px 30px;
+    }
 
     h1 {
       margin: 0 0 18px;
@@ -48,8 +75,14 @@
     }
 
     h3 {
-      margin: 50px 0 16px;
+      margin: 30px 0 16px;
       color: $black;
+      @media (min-width: 768px) {
+        margin: 20px 0;
+      }
+      @media (min-width: 1200px) {
+        margin: 50px 0 16px;
+      }
     }
   }
 
@@ -74,8 +107,8 @@
       border-width: 18px;
 
     }
-    @media (min-width: 1440px) {
-      left: 52px;
+    @media (min-width: 1200px) {
+      left: 34px;
       height: calc(100% + 104px);
     }
   }
@@ -87,6 +120,7 @@
 
     a {
       transition: opacity .25s ease-in-out;
+
       &:hover {
         opacity: .8;
       }

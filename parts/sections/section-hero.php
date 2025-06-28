@@ -1,4 +1,4 @@
-<section class="hero">
+<section id="hero" class="hero">
     <div class="container">
         <div class="hero__inner">
             <div class="hero__left">
@@ -17,7 +17,7 @@
                 </div>
             </div>
             <div class="hero__right">
-                <img src="<?php echo THEME_DIR_URL . '/media/hero-phone-2.png' ?>" alt="App Showcase">
+                <img src="<?php echo THEME_DIR_URL . '/media/hero-phone-3.png' ?>" alt="App Showcase">
             </div>
         </div>
     </div>
