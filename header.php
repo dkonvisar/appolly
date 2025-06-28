@@ -26,12 +26,12 @@
                 <ul class="header__nav--left">
                     <li><a href="/" class="active">Home</a></li>
                     <li><a href="/#about">About</a></li>
-                    <li><a href="#/features">Features</a></li>
+                    <li><a href="/#features">Features</a></li>
                 </ul>
                 <div class="header__nav--right">
                     <ul>
-                        <li><a href="/#screenshot">Screenshot</a></li>
-                        <li><a href="/blog">Blog</a></li>
+                        <li><a href="/#checkout">Screenshot</a></li>
+                        <li><a href="/#recent">Blog</a></li>
                     </ul>
                     <a href="/#download" class="header__btn">Download</a>
                 </div>
@@ -40,7 +40,7 @@
         <!--Mobile nav-->
         <div class="header__main header--mobile">
             <div class="header__nav">
-                <button id="burger" class="burger-btn">
+                <button id="burger" class="burger-btn" aria-label="Toggle mobile menu">
                     <span class="bar-1"></span>
                     <span class="bar-2"></span>
                     <span class="bar-3"></span>
@@ -56,8 +56,8 @@
                 <li><a href="/" class="active">Home</a></li>
                 <li><a href="/#about">About</a></li>
                 <li><a href="/#features">Features</a></li>
-                <li><a href="/#screenshot">Screenshot</a></li>
-                <li><a href="/blog">Blog</a></li>
+                <li><a href="/#checkout">Screenshot</a></li>
+                <li><a href="/#recent">Blog</a></li>
             </ul>
         </nav>
         <!--Mobile nav-->
