@@ -38,8 +38,10 @@
     }
 
     &:hover {
-      &:before {
-        opacity: 1;
+      @media (min-width: 1200px) {
+        &:before {
+          opacity: 1;
+        }
       }
     }
   }
@@ -72,8 +74,10 @@
     height: 28px;
   }
   &:hover {
-    color: $white;
-    background-color: $royal-blue;
+    @media (min-width: 1200px) {
+      color: $white;
+      background-color: $royal-blue;
+    }
   }
 }
 
