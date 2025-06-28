@@ -38,3 +38,6 @@ function custom_scripts_and_styles(): void
 }
 
 add_action('wp_enqueue_scripts', 'custom_scripts_and_styles');
+
+// Tagline from admin settings
+add_theme_support('title-tag');

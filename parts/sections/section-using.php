@@ -9,13 +9,13 @@
         <div class="using__bottom-inner">
             <a id="usingLightbox" class="using__lightbox" href="https://youtu.be/NpEaa2P7qZI?si=_JELRDZztu0Q_Cl4">
                 <img src="<?php echo THEME_DIR_URL . '/media/using-bg.jpg' ?>" alt="Person with laptop">
-                <button class="circle-1">
+                <span class="circle-1">
                     <span class="circle-2">
                         <span class="circle-3">
                             <svg><use xlink:href="<?php echo THEME_DIR_URL . '/media/sprite.svg#icon-play'; ?>"></use></svg>
                         </span>
                     </span>
-                </button>
+                </span>
             </a>
         </div>
     </div>
