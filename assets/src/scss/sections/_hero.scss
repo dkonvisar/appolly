@@ -85,6 +85,13 @@
     align-items: center;
     gap: 0 14px;
 
+    a {
+      transition: opacity .25s ease-in-out;
+      &:hover {
+        opacity: .8;
+      }
+    }
+
     img {
       max-height: 150px;
     }

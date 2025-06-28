@@ -17,7 +17,7 @@
                 </div>
             </div>
             <div class="hero__right">
-                <img src="<?php echo THEME_DIR_URL . '/media/phone-image.png' ?>" alt="App Showcase">
+                <img src="<?php echo THEME_DIR_URL . '/media/hero-phone-2.png' ?>" alt="App Showcase">
             </div>
         </div>
     </div>
