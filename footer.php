@@ -28,7 +28,7 @@
                     <label>
                         <input id="footer-email" type="email" placeholder="Your email address" required>
                     </label>
-                    <button id="footer-submit" type="submit">
+                    <button id="footer-submit" type="submit" aria-label="Submit newsletter form">
                         <svg><use xlink:href="<?php echo THEME_DIR_URL . '/media/sprite.svg#icon-send'; ?>"></use></svg>
                     </button>
                 </form>
