@@ -62,10 +62,10 @@
 
   .swiper-slide-active {
     transform: scale(1) !important;
+    z-index: 2;
     @media (min-width: 1200px) {
       transform: scale(.88) !important;
     }
-    z-index: 2;
   }
 
   .swiper-slide-prev {
