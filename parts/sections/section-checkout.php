@@ -40,6 +40,12 @@
                 </div>
             </div>
             <div class="swiper-pagination-custom"></div>
+            <div class="swiper-button-prev-custom">
+                <svg><use xlink:href="<?php echo THEME_DIR_URL . '/media/sprite.svg#icon-arrow'; ?>"></use></svg>
+            </div>
+            <div class="swiper-button-next-custom">
+                <svg><use xlink:href="<?php echo THEME_DIR_URL . '/media/sprite.svg#icon-arrow'; ?>"></use></svg>
+            </div>
         </div>
     </div>
 </section>

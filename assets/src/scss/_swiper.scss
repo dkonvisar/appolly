@@ -1,6 +1,7 @@
 @use 'variables' as *;
 
 // Basic Swiper styles
+// Pagination bullets
 .swiper-pagination-custom {
   display: flex;
   justify-content: center;
@@ -47,4 +48,42 @@
       opacity: 1;
     }
   }
+}
+
+// Navigation arrows
+.swiper-button-prev-custom, .swiper-button-next-custom {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 84px;
+  height: 84px;
+  color: $royal-blue;
+  background-color: $white;
+  border-radius: 50%;
+  border: 1px solid $royal-blue;
+  cursor: pointer;
+  box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.1);
+  transition: color 0.25s ease-in-out, background-color 0.25s ease-in-out;
+  z-index: 4;
+  svg {
+    width: 17px;
+    height: 28px;
+  }
+  &:hover {
+    color: $white;
+    background-color: $royal-blue;
+  }
+}
+
+.swiper-button-prev-custom {
+  top: 50%;
+  left: 0;
+  transform: scale(-1) translate(0, 100%);
+}
+
+.swiper-button-next-custom {
+  top: 50%;
+  right: 0;
+  transform: translate(0, -100%);
 }

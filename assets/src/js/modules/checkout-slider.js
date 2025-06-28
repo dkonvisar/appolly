@@ -2,6 +2,7 @@ import Swiper from 'swiper';
 import { Pagination, Navigation } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/pagination';
+// import 'swiper/css/navigation';
 
 const checkoutSlider = () => {
   const updateSlideClasses = (swiper) => {
@@ -38,6 +39,10 @@ const checkoutSlider = () => {
     pagination: {
       el: '.swiper-pagination-custom',
       clickable: true,
+    },
+    navigation: {
+      nextEl: '.swiper-button-next-custom',
+      prevEl: '.swiper-button-prev-custom',
     },
     on: {
       init() {
