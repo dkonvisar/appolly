@@ -8,7 +8,6 @@
     <div class="customers__slider-container container">
         <div class="customers__slider swiper">
             <div class="swiper-wrapper">
-                <!--1 slide-->
                 <div class="swiper-slide">
                     <div class="customers__card">
                         <img src="<?php echo THEME_DIR_URL . '/media/customer-ann.jpg' ?>" alt="Ann Lubin">
@@ -17,7 +16,6 @@
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus vitae, nullam lobortis enim. Faucibus amet etiam tincidunt rhoncus, ullamcorper velit. Ullamcorper risus tempor, ac nunc libero urna, feugiat.</p>
                     </div>
                 </div>
-                <!--2 slide-->
                 <div class="swiper-slide">
                     <div class="customers__card">
                         <img src="<?php echo THEME_DIR_URL . '/media/customer-steve.jpg' ?>" alt="Steve Brown">
@@ -26,7 +24,6 @@
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus vitae, nullam lobortis enim. Faucibus amet etiam tincidunt rhoncus, ullamcorper velit. Ullamcorper risus tempor, ac nunc libero urna, feugiat.</p>
                     </div>
                 </div>
-                <!--3 slide-->
                 <div class="swiper-slide">
                     <div class="customers__card">
                         <img src="<?php echo THEME_DIR_URL . '/media/customer-sarah.jpg' ?>" alt="Sarah Gomez">
@@ -35,7 +32,6 @@
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus vitae, nullam lobortis enim. Faucibus amet etiam tincidunt rhoncus, ullamcorper velit. Ullamcorper risus tempor, ac nunc libero urna, feugiat.</p>
                     </div>
                 </div>
-                <!--4 slide-->
                 <div class="swiper-slide">
                     <div class="customers__card">
                         <img src="<?php echo THEME_DIR_URL . '/media/customer-ann.jpg' ?>" alt="Ann Lubin">
@@ -44,7 +40,6 @@
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus vitae, nullam lobortis enim. Faucibus amet etiam tincidunt rhoncus, ullamcorper velit. Ullamcorper risus tempor, ac nunc libero urna, feugiat.</p>
                     </div>
                 </div>
-                <!--5 slide-->
                 <div class="swiper-slide">
                     <div class="customers__card">
                         <img src="<?php echo THEME_DIR_URL . '/media/customer-steve.jpg' ?>" alt="Steve Brown">
