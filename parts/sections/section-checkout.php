@@ -10,32 +10,32 @@
             <div class="swiper-wrapper">
                 <div class="checkout__slide swiper-slide">
                     <div class="checkout__image">
-                        <img src="<?php echo THEME_DIR_URL . '/media/checkout-4.png' ?>" loading="lazy" alt="Mobile screen">
+                        <img src="<?php echo THEME_DIR_URL . '/media/checkout-4.png' ?>" alt="Mobile screen">
                     </div>
                 </div>
                 <div class="checkout__slide swiper-slide">
                     <div class="checkout__image">
-                        <img src="<?php echo THEME_DIR_URL . '/media/checkout-2.png' ?>" loading="lazy" alt="Mobile screen">
+                        <img src="<?php echo THEME_DIR_URL . '/media/checkout-2.png' ?>" alt="Mobile screen">
                     </div>
                 </div>
                 <div class="checkout__slide swiper-slide">
                     <div class="checkout__image">
-                        <img src="<?php echo THEME_DIR_URL . '/media/checkout-4.png' ?>" loading="lazy" alt="Mobile screen">
+                        <img src="<?php echo THEME_DIR_URL . '/media/checkout-4.png' ?>" alt="Mobile screen">
                     </div>
                 </div>
                 <div class="checkout__slide swiper-slide">
                     <div class="checkout__image">
-                        <img src="<?php echo THEME_DIR_URL . '/media/checkout-3.png' ?>" loading="lazy" alt="Mobile screen">
+                        <img src="<?php echo THEME_DIR_URL . '/media/checkout-3.png' ?>" alt="Mobile screen">
                     </div>
                 </div>
                 <div class="checkout__slide swiper-slide">
                     <div class="checkout__image">
-                        <img src="<?php echo THEME_DIR_URL . '/media/checkout-3.png' ?>" loading="lazy" alt="Mobile screen">
+                        <img src="<?php echo THEME_DIR_URL . '/media/checkout-3.png' ?>" alt="Mobile screen">
                     </div>
                 </div>
                 <div class="checkout__slide swiper-slide">
                     <div class="checkout__image">
-                        <img src="<?php echo THEME_DIR_URL . '/media/checkout-1.png' ?>" loading="lazy" alt="Mobile screen">
+                        <img src="<?php echo THEME_DIR_URL . '/media/checkout-1.png' ?>" alt="Mobile screen">
                     </div>
                 </div>
             </div>
