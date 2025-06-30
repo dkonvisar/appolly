@@ -6,7 +6,7 @@
         </div>
         <div class="about__content">
             <div class="about__img">
-                <img src="<?php echo THEME_DIR_URL . '/media/about-image.png' ?>" alt="Phone screen with app">
+                <img src="<?php echo THEME_DIR_URL . '/media/about-image.png' ?>" loading="lazy" alt="Phone screen with app">
             </div>
             <div class="about__items">
                 <div class="about__item">

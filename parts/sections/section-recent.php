@@ -9,7 +9,7 @@
         <div class="recent__cards">
             <a class="recent__card" href="#">
                 <div class="recent__image">
-                    <img src="<?php echo THEME_DIR_URL . '/media/first-post.jpg' ?>" alt="Phone on yellow background">
+                    <img src="<?php echo THEME_DIR_URL . '/media/first-post.jpg' ?>" loading="lazy" alt="Phone on yellow background">
                 </div>
                 <div class="recent__text">
                     <h3>The Snap Pixel: How It Works and How to Install </h3>
@@ -20,7 +20,7 @@
             </a>
             <a class="recent__card" href="#">
                 <div class="recent__image">
-                    <img src="<?php echo THEME_DIR_URL . '/media/second-post.jpg' ?>" alt="Phone on the table">
+                    <img src="<?php echo THEME_DIR_URL . '/media/second-post.jpg' ?>" loading="lazy" alt="Phone on the table">
                 </div>
                 <div class="recent__text">
                     <h3>The Snap Pixel: How It Works and How to Install </h3>
@@ -31,7 +31,7 @@
             </a>
             <a class="recent__card" href="#">
                 <div class="recent__image">
-                    <img src="<?php echo THEME_DIR_URL . '/media/third-post.jpg' ?>" alt="Phone in the hand">
+                    <img src="<?php echo THEME_DIR_URL . '/media/third-post.jpg' ?>" loading="lazy" alt="Phone in the hand">
                 </div>
                 <div class="recent__text">
                     <h3>The Snap Pixel: How It Works and How to Install </h3>

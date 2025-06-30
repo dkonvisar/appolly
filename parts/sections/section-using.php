@@ -8,7 +8,7 @@
     <div class="using__bottom container">
         <div class="using__bottom-inner">
             <a id="usingLightbox" class="using__lightbox" href="https://youtu.be/NpEaa2P7qZI?si=_JELRDZztu0Q_Cl4">
-                <img src="<?php echo THEME_DIR_URL . '/media/using-bg.jpg' ?>" alt="Person with laptop">
+                <img src="<?php echo THEME_DIR_URL . '/media/using-bg.jpg' ?>" loading="lazy" alt="Person with laptop">
                 <span class="circle-1">
                     <span class="circle-2">
                         <span class="circle-3">

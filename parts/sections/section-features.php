@@ -26,7 +26,7 @@
                     </div>
                 </div>
                 <div class="features__image">
-                    <img src="<?php echo THEME_DIR_URL . '/media/income-screen.png' ?>" alt="Income app screen">
+                    <img src="<?php echo THEME_DIR_URL . '/media/income-screen.png' ?>" loading="lazy" alt="Income app screen">
                 </div>
                 <div class="features__items-right">
                     <div class="features__item">

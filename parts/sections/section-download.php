@@ -28,7 +28,7 @@
                 </div>
             </div>
             <div class="download__right">
-                <img src="<?php echo THEME_DIR_URL . '/media/phone-screens.png' ?>" alt="Income and Statistics App Screens">
+                <img src="<?php echo THEME_DIR_URL . '/media/phone-screens.png' ?>" loading="lazy" alt="Income and Statistics App Screens">
             </div>
         </div>
     </div>

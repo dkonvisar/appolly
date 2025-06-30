@@ -3,7 +3,7 @@
         <div class="footer__content">
             <div class="footer__column">
                 <a href="/" class="footer__logo">
-                    <img src="<?php echo THEME_DIR_URL . '/media/logo.png'; ?>" alt="Logo">
+                    <img src="<?php echo THEME_DIR_URL . '/media/logo.png'; ?>" loading="lazy" alt="Logo">
                 </a>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus vitae, nullam lobortis enim.</p>
                 <div class="footer__socials">

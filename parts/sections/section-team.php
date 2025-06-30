@@ -7,7 +7,7 @@
         <div class="team__cards">
             <div class="team__card">
                 <div class="team__image">
-                    <img src="<?php echo THEME_DIR_URL . '/media/carla.jpg' ?>" alt="Carla App Developer">
+                    <img src="<?php echo THEME_DIR_URL . '/media/carla.jpg' ?>" loading="lazy" alt="Carla App Developer">
                     <svg><use xlink:href="<?php echo THEME_DIR_URL . '/media/sprite.svg#dashed-border'; ?>"></use></svg>
                 </div>
                 <div class="team__text">
@@ -22,7 +22,7 @@
 
             <div class="team__card">
                 <div class="team__image">
-                    <img src="<?php echo THEME_DIR_URL . '/media/craig.jpg' ?>" alt="Craig Designer">
+                    <img src="<?php echo THEME_DIR_URL . '/media/craig.jpg' ?>" loading="lazy" alt="Craig Designer">
                     <svg><use xlink:href="<?php echo THEME_DIR_URL . '/media/sprite.svg#dashed-border'; ?>"></use></svg>
                 </div>
                 <div class="team__text">
@@ -37,7 +37,7 @@
 
             <div class="team__card">
                 <div class="team__image">
-                    <img src="<?php echo THEME_DIR_URL . '/media/joce.jpg' ?>" alt="Joselyn Web Developer">
+                    <img src="<?php echo THEME_DIR_URL . '/media/joce.jpg' ?>" loading="lazy" alt="Joselyn Web Developer">
                     <svg><use xlink:href="<?php echo THEME_DIR_URL . '/media/sprite.svg#dashed-border'; ?>"></use></svg>
                 </div>
                 <div class="team__text">
