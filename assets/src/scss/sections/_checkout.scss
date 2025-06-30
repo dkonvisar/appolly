@@ -26,6 +26,7 @@
       display: block;
       width: 320px;
       height: 690px;
+      pointer-events: none;
       background-image: url("../images/checkout-mockup.png");
       border-radius: 40px;
       z-index: 3;
@@ -33,7 +34,6 @@
         transform: translate(-50%, -15%) scale(.74);
       }
       @media (min-width: 1200px) {
-        //transform: translateX(-50%) scale(1.05);
         transform: translateX(-50%) scale(.9);
       }
     }
