@@ -8,6 +8,7 @@
   }
 
   .swiper-slide {
+    opacity: 0;
     @media (min-width: 375px) {
       width: 340px;
     }
@@ -16,6 +17,9 @@
     }
     @media (min-width: 1200px) {
       width: 770px;
+    }
+    &.swiper-slide-visible {
+      opacity: 1;
     }
   }
 

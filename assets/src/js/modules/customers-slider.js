@@ -14,7 +14,7 @@ const customersSlider = () => {
     slidesPerView: 'auto',
     coverflowEffect: {
       rotate: 0,
-      stretch: 522,
+      stretch: 0,
       depth: 100,
       modifier: 1,
       slideShadows: false,
